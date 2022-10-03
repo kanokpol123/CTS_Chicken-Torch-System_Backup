@@ -3,8 +3,6 @@ using namespace std;
 int main()
 {
     list <int> mylist;
-    cout << "sfgsgesgesgvses" << endl;
-    cout << "sfgsgesgesgvses" << endl;
-    cout << "sfsgesfgsgsegFEWFWE" <<endl;
+    cout << "Chicken Torch" <<endl;
     return 0;
 }
