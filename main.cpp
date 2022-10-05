@@ -8,7 +8,7 @@ using namespace std;
 //void showData(){}
 //void showMenu(){}
 //void showQuese(){}
-
+//ไก่จิกเด็กตาย
 
 int main()
 {
