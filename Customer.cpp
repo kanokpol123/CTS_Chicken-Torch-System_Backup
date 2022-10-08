@@ -22,5 +22,5 @@ void Customer::setTelephone(string telephone){this->telephone = telephone;}
 
 void regis(string username, string password, string name, string address, string telephone)
 {
-    //เพิ่มโค้ด Register ตรงนี้
+    //เพิ่มโค้ด Register ตรงนี้ Vvvvvvvvv
 }

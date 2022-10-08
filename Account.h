@@ -1,23 +1,25 @@
-#include "Customer.h"
+#include <string>
 
-class Account : public Customer{
-//Customer Attributes.
-protected:
-string username;
-string password;
-string address;
-string signedDate;
-char privilege;
-//Account CusAccount
+class Account
+{
+private:
+    string username;
+    string password;
+    string address;
+    string signedDate;
+    char privilege
 public:
-//Customer Methods.
-Account();
-//Account(string firstname, string lastname, int age, string address, string telephone);
-string getUsername();
-void setUsername(string username);
-string getAddress();
-void getAddress(string address);
-string getSignedDate();
-void setSignedDate(string telephone);
-void regis(string username, string password, string name, string address, string telephone);
+    Account();
+    Account(string username, string password, string address, string signedDate,char privilege);
+    string getUsername();
+    void setUsername(string username);
+    string getPassword();
+    void setPassword(string password);
+    string getAddress();
+    void setAddress(string address);
+    string getSignedDate();
+    void setSignedDate(string signedDate);
+    char getPrivilege();
+    void setPrivilege(char pri);
 };
+
