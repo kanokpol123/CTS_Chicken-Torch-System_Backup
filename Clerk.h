@@ -1,4 +1,5 @@
 #include "Person.h"
+using namespace std;
 
 class Clerk : public Person
 {
