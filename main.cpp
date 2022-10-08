@@ -1,4 +1,3 @@
-#include <bits/stdc++.h>
 #include<iostream>
 using namespace std;
 
@@ -20,10 +19,8 @@ using namespace std;
 //กกนานกา
 int main()
 {
-    list <int> mylist;
     cout << "Chicken Torch" <<endl;
     
     return 0;
 
-    mylist.
 }
