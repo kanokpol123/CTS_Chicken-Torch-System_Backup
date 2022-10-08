@@ -28,6 +28,8 @@ int main()
 {
     list <int> mylist;
     cout << "Chicken Torch" <<endl;
+    
     return 0;
 
+    mylist.
 }
