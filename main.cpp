@@ -9,10 +9,13 @@ using namespace std;
 //void showMenu(){}
 //void showQuese(){}
 //ไก่จิกเด็กตาย
+//วัยรุ่นส้างตรั่ว
 
 int main()
 {
     list <int> mylist;
     cout << "Chicken Torch" <<endl;
     return 0;
+
+    mylist.
 }
