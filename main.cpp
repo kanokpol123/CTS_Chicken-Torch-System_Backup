@@ -17,7 +17,7 @@ using namespace std;
  }*/
 //ไก่จิกเด็กตาย
 //วัยรุ่นส้างตรั่ว
-
+//กกนานกา
 int main()
 {
     list <int> mylist;
