@@ -6,7 +6,7 @@ Person::Person(){
     age = 0;
 }
 
-Person::Person(string firstname, string lastname, int age) : setName(string ){
+Person::Person(string firstname, string lastname, int age){
     this->firstname = firstname;
     this->lastname = lastname;
     this->age = age;
@@ -31,3 +31,5 @@ int Person::getAge(){
 void Person::setAge(int age){
     this->age = age;
 }
+
+
