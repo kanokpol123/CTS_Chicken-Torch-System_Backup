@@ -8,6 +8,13 @@ using namespace std;
 //void showData(){}
 //void showMenu(){}
 //void showQuese(){}
+/*void searchMenu(foodName){
+    while(node != NULL) {
+        if(node->foodName.find(foodName)) {
+            cout << node->foodName << " " << node->foodSize << " " << node->foodType << " " << node->foodPrice << endl;
+        }
+    }
+ }*/
 //ไก่จิกเด็กตาย
 
 int main()
