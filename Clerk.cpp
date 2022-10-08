@@ -1,4 +1,6 @@
+
 #include "Clerk.h"
+using namespace std;
 
 Clerk::Clerk(){
     this->position = "";
