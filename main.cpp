@@ -2,7 +2,13 @@
 #include<iostream>
 using namespace std;
 
-//void login(){}
+/*void login(string username, string password){
+    while(temp != NULL){
+    if(username == temp->username & password == temp->password){
+    }
+    temp=temp->link;
+    }
+}*/
 //void register(){}
 //void mainMenu(){}
 //void showData(){}
@@ -25,4 +31,6 @@ int main()
     cout << "Chicken Torch" <<endl;
     
     return 0;
+
+    mylist.
 }
