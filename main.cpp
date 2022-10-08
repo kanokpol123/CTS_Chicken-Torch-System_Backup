@@ -1,14 +1,7 @@
-#include <bits/stdc++.h>
 #include<iostream>
 using namespace std;
 
-/*void login(string username, string password){
-    while(temp != NULL){
-    if(username == temp->username & password == temp->password){
-    }
-    temp=temp->link;
-    }
-}*/
+//void login(){}
 //void register(){}
 //void mainMenu(){}
 //void showData(){}
@@ -23,10 +16,9 @@ using namespace std;
  }*/
 //ไก่จิกเด็กตาย
 //วัยรุ่นส้างตรั่ว
-
+//กกนานกา
 int main()
 {
-    list <int> mylist;
     cout << "Chicken Torch" <<endl;
     
     return 0;
