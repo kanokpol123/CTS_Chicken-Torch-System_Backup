@@ -20,5 +20,4 @@ public:
     void setLastname(string lastname);
     int getAge();
     void setAge(int age);
-    ~Person();
 };
