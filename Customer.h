@@ -1,12 +1,19 @@
+#ifndef CUSTOMER_H
+#define CUSTOMER_H
+
 #include "Person.h"
+#include "Account"
+
 using namespace std;
 
-class Customer : public Person{
+class Customer : public Person
+{
 //Customer Attributes.
 protected:
 string address;
 string telephone;
-//Account CusAccount
+Customer custAccount;
+
 public:
 //Customer Methods.
 Customer();
@@ -17,3 +24,5 @@ string getTelephone();
 void setTelephone(string telephone);
 void regis(string username, string password, string name, string address, string telephone);
 };
+
+#endif

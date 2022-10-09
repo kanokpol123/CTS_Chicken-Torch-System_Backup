@@ -3,11 +3,12 @@ using namespace std;
 
 class Person
 {
-//Person Attributes.
 protected:
+//Person Attributes.
 string firstname;
 string lastname;
 int age;
+
 public:
 //Person Method.
     Person();

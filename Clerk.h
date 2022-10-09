@@ -1,3 +1,6 @@
+#ifndef CLERK_H
+#define CLERK_H
+
 #include "Person.h"
 using namespace std;
 
@@ -11,3 +14,5 @@ public:
     string getPosition();
     void setPosition(string position);
 };
+
+#endif

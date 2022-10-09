@@ -32,3 +32,7 @@ void Account::setSignedDate(string signedDate){this->signedDate = signedDate;}
 string Account::getPrivilege(){return privilege;}
 
 void Account::setPrivilege(string pri){this->privilege = privilege;}
+
+void Account::login(){
+    //เพิ่มโค้ด login ตรงนี้
+}
