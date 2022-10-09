@@ -2,20 +2,19 @@
 using namespace std;
 
 class Food {
-    protected :
+    protected:
         string foodName;
-        char size;
+        string size;
         string typeOfFood;
-        int price;
-
-    public :
-        Food();
+        string price;
+    public:
+        Food(string foodName, string size, string typeOfFood, string price);
         void setFoodName(string foodName);
         string getFoodName();
         void setSize(string size);
-        char getSize();
+        string getSize();
         void setType(string type);
         string getType();
         void setPrice(int price);
-        int getPrice();
+        string getPrice();
 };
