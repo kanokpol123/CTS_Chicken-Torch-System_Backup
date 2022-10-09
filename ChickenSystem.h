@@ -12,11 +12,9 @@ class ChickenSystem
 {
     private:
         list <Customer*> customerList;
-        list <Menu*> menuList;
         queue <Queue*> queueList;
     public:
         void addCustomer(Customer* Customer);
-        void addMenu(Menu* Menu);
         void addQueue(Queue* Queue);
 };
 

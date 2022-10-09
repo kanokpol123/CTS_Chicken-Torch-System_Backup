@@ -1,5 +1,6 @@
 #include<iostream>
 #include<iomanip>
+#include "Menu.h"
 using namespace std;
 
 //void login(){}
@@ -31,6 +32,8 @@ int main()
     cout << left << setw(2) << "||" << setw(98) << "" << setw(2) << "||" << endl;
     cout << left << setw(100) << " ====================================================================================================" << endl;
 
+    Menu m;
+    m.printMenu();
     return 0;
 
 }
