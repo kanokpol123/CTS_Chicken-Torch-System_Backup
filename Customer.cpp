@@ -20,7 +20,11 @@ string Customer::getTelephone(){return telephone;}
 
 void Customer::setTelephone(string telephone){this->telephone = telephone;}
 
-void regis(string username, string password, string name, string address, string telephone)
-{
-    //เพิ่มโค้ด Register ตรงนี้ Vvvvvvvvv
+void regis(string username, string password, string name, string address, string telephone){
+    cout << "=======================================" << endl;
+    cout << "Register" << endl;
+    cout << "=======================================" << endl;
+    cout << "Username : ";
+    cin >> username;
+    
 }
