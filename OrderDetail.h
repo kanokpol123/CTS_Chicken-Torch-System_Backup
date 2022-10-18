@@ -13,7 +13,7 @@ private:
 public:
     string getFood();
     void addFoodDetail(Food *food);
-     
+    
 };
 
 #endif
